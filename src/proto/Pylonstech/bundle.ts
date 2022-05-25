@@ -15,13 +15,16 @@ import * as _114 from "../pylons/pylons/recipe";
 import * as _115 from "../pylons/pylons/redeem_info";
 import * as _116 from "../pylons/pylons/trade";
 import * as _117 from "../pylons/pylons/tx";
-import * as _157 from "../pylons/pylons/tx.amino";
-import * as _158 from "../pylons/pylons/tx.registry";
+import * as _172 from "../pylons/pylons/tx.amino";
+import * as _173 from "../pylons/pylons/tx.registry";
+import * as _174 from "../pylons/epochs/query.lcd";
+import * as _175 from "../pylons/pylons/query.lcd";
 export namespace Pylonstech {
   export namespace pylons {
     export const epochs = { ..._101,
       ..._102,
-      ..._103
+      ..._103,
+      ..._174
     };
     export const pylons = { ..._104,
       ..._105,
@@ -37,8 +40,9 @@ export namespace Pylonstech {
       ..._115,
       ..._116,
       ..._117,
-      ..._157,
-      ..._158
+      ..._172,
+      ..._173,
+      ..._175
     };
   }
 }
