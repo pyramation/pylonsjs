@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createAccount 1`] = `
+Object {
+  "typeUrl": "/Pylonstech.pylons.pylons.MsgCreateAccount",
+  "value": Object {
+    "creator": "creator1",
+    "username": "myusername",
+  },
+}
+`;
+
+exports[`createCookbook 1`] = `
+Object {
+  "typeUrl": "/Pylonstech.pylons.pylons.MsgCreateCookbook",
+  "value": Object {
+    "ID": "someId",
+    "creator": "creator1",
+    "description": "desc",
+    "developer": "somedev",
+    "enabled": true,
+    "name": "somename",
+    "supportEmail": "yolo@gmail.com",
+    "version": "v1",
+  },
+}
+`;
